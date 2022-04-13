@@ -27,6 +27,10 @@ public class Student {
 	@Column(name = "email")
 	private String email;
 
+	public Student() {
+		// This no-arg constructor is necessary
+	}
+	
 	public Student(String firstName, String lastName, String email) {
 		this.firstName = firstName;
 		this.lastName = lastName;
